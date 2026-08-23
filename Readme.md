@@ -1,4 +1,4 @@
-# Phoenix Intelligence — Conference Intelligence Engine
+# Phoenix Conference Intelligence
 
 A self-healing conference talk tracker built for the **Into the Scrape-Verse**
 hackathon (WeMakeDevs x Bright Data), August 17–23, 2026.
