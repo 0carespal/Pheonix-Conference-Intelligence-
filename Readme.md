@@ -81,12 +81,10 @@ Manual AI summary (Antigravity CLI) → trend readout
 ```
 phoenix-intelligence/
 ├── collectors/
-│   ├── compliance.md              # robots.txt / ToS review notes
-│   ├── target_urls.txt
-│   ├── collector_id_production.txt
 │   └── collector_id_demo.txt
 ├── data_reports/
-│   ├── talks.json                 # collected dataset
+|   ├── talks_raw.json             # Collected dataset
+│   ├── talks.json                 # Re checked collected dataset
 │   ├── talks_broken.json          # after simulated layout break
 │   └── talks_healed.json          # after healing
 ├── validators/
@@ -143,13 +141,6 @@ Antigravity CLI, shown in the demo video / included below).
   than a real live redesign, for reproducibility within the hackathon
   timeframe.
 
----
-
-## Compliance
-
-See `collectors/compliance.md` for the robots.txt / Terms of Service review
-of any real conference source targeted. Only public, non-login-gated pages
-were scraped.
 
 ---
 
