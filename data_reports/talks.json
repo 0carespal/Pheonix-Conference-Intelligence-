@@ -1,0 +1,32 @@
+[
+  {
+    "talk_title": "Scaling LLM Inference Infrastructure with Speculative Decoding",
+    "speaker_name": "Dr. Aris Vance",
+    "conference_name": "AI Systems Summit 2026",
+    "topic": "AI Infrastructure"
+  },
+  {
+    "talk_title": "Zero-Trust Architecture for Cloud-Native Microservices",
+    "speaker_name": "Elena Rostova",
+    "conference_name": "CloudSec Global 2026",
+    "topic": "Cybersecurity"
+  },
+  {
+    "talk_title": "Optimizing Vector Database Indexing at Petabyte Scale",
+    "speaker_name": "Marcus Chen",
+    "conference_name": "DataEng World 2026",
+    "topic": "Data Engineering"
+  },
+  {
+    "talk_title": "Autonomous AI Agents in Production: Pitfalls and Patterns",
+    "speaker_name": "Sophia Patel",
+    "conference_name": "DevCon AI 2026",
+    "topic": "Artificial Intelligence"
+  },
+  {
+    "talk_title": "WebAssembly Edge Runtimes for Distributed Applications",
+    "speaker_name": "Liam O'Connor",
+    "conference_name": "Edge Computing Con 2026",
+    "topic": "Distributed Systems"
+  }
+]
