@@ -28,7 +28,6 @@ during the hackathon window, so the break → detect → heal → recover cycle
 is demonstrated against a controlled mock page with two layout versions
 (`?version=A` and `?version=B`) serving the same underlying data under
 different HTML structure — a standard way to reliably demo this mechanism.
-See `proof_of_repair.mp4` for the recorded end-to-end run.
 
 The scraper architecture itself (extraction, validation, healing via
 `bdata scraper heal`) is the same mechanism that would run against a real
