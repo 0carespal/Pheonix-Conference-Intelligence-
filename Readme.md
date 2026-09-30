@@ -64,13 +64,10 @@ Manual AI summary (Antigravity CLI) → trend readout
 ## Tech stack
 
 - **Scraping / self-healing:** Bright Data Scraper Studio, Bright Data CLI
-- **Coding assistant:** Antigravity CLI (Gemini-based) — used for code
-  generation, debugging, and extraction prompt drafting throughout the
-  project. All generated code was reviewed before use.
 - **Backend logic:** Python (`backend/filter.py`, `validators/validator.py`)
 - **Frontend:** React + TypeScript + Tailwind CSS — a dashboard view over
   the collected talk data
-- **AI:** used via Antigravity CLI for the extraction prompt and the
+- **AI:** used via gemini for the extraction prompt and the
   trend-summary step
 
 ---
@@ -118,8 +115,7 @@ python backend/filter.py
 **Filter:** `topic="AI Infrastructure"`, `keywords=["AI", "infra"]`
 
 **Output:** matching talks from `talks.json`, followed by a short
-AI-generated summary of themes across the matched talks (generated via
-Antigravity CLI, shown in the demo video / included below).
+AI-generated summary of themes across the matched talks.
 
 `[example output here]`
 
